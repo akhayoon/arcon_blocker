@@ -4,4 +4,7 @@ setTimeout(() =>
 $("[id^=epom]").remove();
 $("[id^=google_ads").remove();
 $('.adsbygoogle').remove();
+// remove chat
+$(".chatbox-tabs").remove();
+$(".chatbox-tab-links").remove();
 }, 2000)
